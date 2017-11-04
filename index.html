@@ -4,14 +4,29 @@
         <title>  Hello</title>
         <script type="text/javascript" src="index.js" ></script>
     </head>
-    <body>
+    <body >
+	<div id="container" style= "width:850px; margin:0px auto">
+	<div style="background-color:powderblue; padding:20px">
+	<h1>Web Dictionary<h1>
+	</div>
        
-    
-    <input type="button" onclick="searchButton()" value="Search" />
+    <div style="padding:10px; background-color:#E0E0E0">
+	<div style = "padding:10px">
+	<p> Look up the definition of a word (e.g. html, ajax, bar, php, css or javascript) </p>
+    <input type="button" onclick="searchButton()" value="Search" style= "background-color:powderblue"/>
 	<input id = 'searchWord' type="text" name="search" value= ""/>
-	<div id= 'result'>
+	<input type="button" onclick="getAllButton()" value="Get All Definitions" style= "background-color:powderblue"/>
+	<hr/>
+	</div>
+	
+	<div id= 'result' >
 	<h1>Result</h1>
 	</div>
-</p>
+	
+	</div>
+	
+	</div>
+	
+
     </body>
 </html>
